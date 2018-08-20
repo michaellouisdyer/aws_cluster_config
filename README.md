@@ -129,7 +129,7 @@ To launch Jupyter Notebook with a spark instance, we need to make sure it's conf
 Tuning these spark jobs is quite complicated, but here's a quick guide:
 http://c2fo.io/c2fo/spark/aws/emr/2016/09/01/apache-spark-config-cheatsheet-part2/
 
-And here's a link to a google doc you can use to tune your spark setup: change the variables in green to get values for your instance https://docs.google.com/spreadsheets/d/1dQhkmEuP_yzFestvJRJOcmHjJwdctaY3pGycaRrGiJs/edit?usp=sharing
+And here's a link to a google doc (make a copy) you can use to tune your spark setup: change the variables in green to get values for your instance https://docs.google.com/spreadsheets/d/1dQhkmEuP_yzFestvJRJOcmHjJwdctaY3pGycaRrGiJs/edit?usp=sharing
 
 For example, I used a five node c3.2xlarge:
 Each node has 15GiBs of memory, 8vCPUs and we have four workers (you can find this under hardware on your EMR cluster status page):
