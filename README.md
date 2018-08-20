@@ -1,7 +1,7 @@
 ## How to configure AWS clusters
 
-To Begin:
-Choose an instance configuration:
+To Begin:  
+Choose an instance configuration:  
 Here is a wonderful website (https://www.ec2instances.info/) that updates from amazon and displays information about all of the instance types, including older instances like m3: (enable the EMR pricing column to check EMR prices, and keep in mind that the EMR price is in addition to the instance cost). You can check to see if instances are VPC-only as well.
 
 A VPC is basically a private virtual network in your AWS account; before VPC Amazon used EC2-Classic, where you would share a network with others.
@@ -132,8 +132,11 @@ http://c2fo.io/c2fo/spark/aws/emr/2016/09/01/apache-spark-config-cheatsheet-part
 And here's a link to a google doc you can use to tune your spark setup: change the variables in green to get values for your instance https://docs.google.com/spreadsheets/d/1dQhkmEuP_yzFestvJRJOcmHjJwdctaY3pGycaRrGiJs/edit?usp=sharing
 
 For example, I used a five node c3.2xlarge:
-Each node has 15GiBs of memory, 8vCPUs and we have four workers (you can find this under hardware on your EMR cluster status page) :
+Each node has 15GiBs of memory, 8vCPUs and we have four workers (you can find this under hardware on your EMR cluster status page):
+
 <img src="img/EMR.jpg" width = 800>
+
+
 So:
 Master Memory	15
 Master Cores	8
