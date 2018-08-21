@@ -206,7 +206,7 @@ $ bash tunnel_config.sh spark
 
 | Service | Address in Web Browser     |
 | :------------- | :------------- |
-| Ganglia (it make take a 10-15 minutes for the graphs to initialize)            | 0.0.0.0:8157/ganglia/       |
+| Ganglia (it make take 10-15 minutes for the graphs to initialize)            | 0.0.0.0:8157/ganglia/       |
 | Jupyter (You will need a token to access this when you first start, you can just copy and paste out of the startup commands and change http://ip-172-31-14-224:48888/?token=0fc28476bfca0b387a018e218d8047ad819b631bef4e32c to http://0.0.0.0:4888/? etc...)             | 0.0.0.0:48888       |
 | Spark History       | 0.0.0.0:18080       |
 
@@ -214,4 +214,4 @@ $ bash tunnel_config.sh spark
 Now you should be totally up and running!
 
 I've included my bash files in the repo.
-Thanks for reading, hope this was helpful!
+Thanks for reading, hope this was helpful & feel free to reach out with any questions!
