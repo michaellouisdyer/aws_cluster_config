@@ -137,12 +137,12 @@ Each node has 15GiBs of memory, 8vCPUs and we have four workers (you can find th
 <img src="img/EMR.jpg" width = 800>
 
 
-So:
-Master Memory	15
-Master Cores	8
-Number of Worker Nodes	4
-Memory Per Worker Node (GB)	15
-Cores Per Worker Node	8
+So:  
+Master Memory	15  
+Master Cores	8  
+Number of Worker Nodes	4  
+Memory Per Worker Node (GB)	15  
+Cores Per Worker Node	8  
 
 Now you have to pick executors per node. The grid just below the values you entered will gray out bad numbers of Executors per Node -- use the first or second number after the last grayed out value, and enter it in Selected Executors Per Node, and it will tell you what to do!
 <img src="img/spark_config.jpg" width = 800>
